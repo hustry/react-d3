@@ -1,5 +1,5 @@
 
-### Webpack + React
+### React + D3
 
 ## 使用
 ```js
@@ -14,14 +14,4 @@ webpack-dev-server --content-base build --inline --hot
 npm run dev
 ```
 
-## loaders
-使用了如下一些loader
-* babel-loader<br/>
-	babel-loader需要babel-core,babel-preset-es2015使用react还需要babel-react
-* css-loader<br/>
-	可以require("*.css")
-* style-loader<br/>
-	添加style标签到html
-* url-loader<br/>
-	可以require(文件路径)
-* file-loader
+使用React+d3构建了一个简单的pie图
