@@ -1,0 +1,33 @@
+{
+	"name": "react-d3",
+	"version": "1.0.0",
+	"description": "react with d3",
+	"scripts": {
+		"lint": "eslint app",
+		"dev": "webpack-dev-server --content-base build --inline --hot"
+	},
+	"author": "hustry",
+	"license": "ISC",
+	"devDependencies": {
+		"babel-core": "^6.14.0",
+		"babel-loader": "^6.2.5",
+		"babel-preset-es2015": "^6.14.0",
+		"babel-preset-react": "^6.11.1",
+		"babel-preset-stage-0": "^6.5.0",
+		"css-loader": "^0.24.0",
+		"file-loader": "^0.9.0",
+		"style-loader": "^0.13.1",
+		"url-loader": "^0.5.7",
+		"webpack": "^1.13.2",
+		"webpack-dev-server": "^1.15.1"
+	},
+	"dependencies": {
+		"autobind-decorator": "^1.3.3",
+		"d3": "^4.2.2",
+		"lodash": "^4.15.0",
+		"react": "^15.3.1",
+		"react-dom": "^15.3.1",
+		"react-redux": "^4.4.5",
+		"redux": "^3.5.2"
+	}
+}
